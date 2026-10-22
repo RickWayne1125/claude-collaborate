@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "model": "opus",
+  "effort": "high",
+  "auto_consult": false,
+  "access": "project",
+  "auth": "claude.ai",
+  "telemetry": "off",
+  "routing": {
+    "simple": "direct",
+    "moderate": "auto",
+    "complex": "discuss-implement"
+  },
+  "limits": {
+    "packet_bytes": 2097152,
+    "output_bytes": 67108864,
+    "timeout_seconds": 900,
+    "discussion_sends": 3,
+    "max_turns": null,
+    "max_budget_usd": null
+  },
+  "permissions": {
+    "extra_deny": []
+  },
+  "claude_command": null,
+  "state_dir": null
+}

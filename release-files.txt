@@ -1,0 +1,25 @@
+# Explicit source allowlist. New files are excluded until listed here.
+.github/workflows/tests.yml
+.gitignore
+LICENSE
+README.md
+README.zh-CN.md
+docs/configuration.md
+docs/platforms.md
+docs/privacy.md
+profiles/compatible.json
+profiles/default.json
+release-files.txt
+scripts/build_release.py
+skills/claude-collaborate/SKILL.md
+skills/claude-collaborate/agents/openai.yaml
+skills/claude-collaborate/references/cli-and-sessions.md
+skills/claude-collaborate/references/cross-validation.md
+skills/claude-collaborate/references/discussion.md
+skills/claude-collaborate/references/forward.md
+skills/claude-collaborate/references/implementation.md
+skills/claude-collaborate/references/review.md
+skills/claude-collaborate/scripts/claude_session.py
+skills/claude-collaborate/scripts/test_claude_session.py
+tests/test_release.py
+tests/test_runtime_regressions.py

@@ -1,0 +1,28 @@
+# Local release artifacts and Python caches.
+/dist/
+/build/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.venv/
+venv/
+
+# Local agent settings, session history, credentials, and editor state.
+.claude/
+.codex/
+.agents/
+.aws/
+.ssh/
+.env
+.env.*
+*.jsonl
+*.log
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/

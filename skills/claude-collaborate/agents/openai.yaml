@@ -1,0 +1,4 @@
+interface:
+  display_name: "Claude Collaborate"
+  short_description: "Cross-check, review, discuss, implement, or forward to Claude"
+  default_prompt: "Use $claude-collaborate to choose a coordination mode and work with Claude on this task."
