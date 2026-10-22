@@ -22,7 +22,7 @@ The unit suite uses a fake Claude executable to exercise argument construction, 
 
 These tests do not establish model availability, successful real authentication, server-side effort, exact billing behavior, or complete sandbox isolation. Tests that mock Windows APIs are useful checks of code paths, not a native Windows execution result.
 
-CI configuration describes the intended test matrix: Python 3.9, 3.12, and 3.13 on Ubuntu, macOS, and Windows. Do not read its presence as evidence that every job has run successfully. Check actual CI results for the revision being used. The matrix configuration alone is not evidence of a successful run; consult the repository’s [actual checks](https://github.com/RickWayne1125/claude-collaborate/actions) for the revision you use.
+CI covers Python 3.9, 3.12, and 3.13 on Ubuntu, macOS, and Windows. The Linux Python 3.9 job uses Ubuntu 24.04 because setup-python has no Python 3.9 build for Ubuntu 26.04; the remaining jobs use the latest runner labels. Do not read its presence as evidence that every job has run successfully. Check actual CI results for the revision being used. The matrix configuration alone is not evidence of a successful run; consult the repository’s [actual checks](https://github.com/RickWayne1125/claude-collaborate/actions) for the revision you use.
 
 ## Local validation scope
 
